@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ProjetoAdote © - contato </title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="background.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-light bg-success bg-gradient">
+      
+      <div class="container-fluid">
+        <a class="navbar-brand text-light">ProjetoAdote © </a>
+        
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active text-light" aria-current="page" href="paginaInicial.html">Página Inicial</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-light" href="historia.html">História</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle text-light" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                ADOTE
+              </a>
+              <ul class="dropdown-menu bg-success bg-gradient" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item text-light" href="adotecao.html">Cães</a></li>
+                <li><a class="dropdown-item text-light" href="adotegato.html">Gatos</a></li>
+              </ul>
+            </li>
+            <li class="nav-item ">
+              <a class="nav-link text-light" href="#contato">Contato</a>
+            </li>
+          </ul>
+          <form class="d-flex">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-light" type="submit">Pesquisar</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+
+  </header>
+
+  <main class="col-md-12 d-flex justify-content-center text-light">
+    
+    <div>
+      <div style="text-align:center">
+        <h3><b>Formulário de interesse de adoção</b></h2>
+      </div>
+      <div>
+        <div style="text-align:center">
+          <h5>ProjetoAdote ©</h5>
+          <!-- Botao sem funcionar -->
+          <a href="paginaInicial.html" class="text-light" >Voltar para a página inicial</a>
+          <!-- Fim do Botao sem funcionar -->
+        </div>
+        <div class="mb-3">
+          <form action="projetoadote.com/formularioadocao" method="POST">
+            <label for="clientname"><b>Seu nome:</b></label>
+            <input type="text" class="form-control" id="clientname" name="nome">
+            <label for="clientmail"><b>Seu e-mail:</b></label>
+            <input type="email" class="form-control" id="clientmail" name="mail">
+            <label for="clientmail"><b>Seu telefone:</b></label>
+            <input type="tel" class="form-control" id="clientphone" name="phone"placeholder="(ddd) 0000-000">
+            <h6><b>Você gostaria de adotar um:</b></h6>
+            <input class="form-check-input" type="checkbox" value="gato" id="checkboxgato">
+            <label class="form-check-label" for="checkboxgato"><b>Gato</b></label>
+            <input class="form-check-input" type="checkbox" value="cachorro" id="checkboxcachorro">
+            <label class="form-check-label" for="checkboxcachorro"><b>Cachorro</b></label>
+            <br>
+            <label for="animalname"><b>Qual o nome do animal que você tem interesse em adotar?</b></label>
+            <input type="text" class="form-control" id="animalname" name="animalname">
+            <label for="subject"><b>Por que você acredita que você é uma boa escolha para a adoção?</b></label>
+            <textarea id="subject" class="form-control" name="subject" placeholder="Escreva aqui..." style="height:100px"></textarea>
+            <label for="adressFile" class="form-label"><b>Por favor, coloque seu comprovante de endereço:</b></label>
+            <input class="form-control" type="file" id="adressFile">
+            <label for="identityFile" class="form-label"><b>Por favor, anexe um comprovante de identidade:</b></label>
+            <input class="form-control" type="file" id="identityFile">
+            <input type="submit" class="btn btn-primary mb-3" value="Enviar"> 
+          </form>
+        </div>
+      </div>
+    </div>   
+  </main>
+
+  <footer class="d-flex justify-content-center bg-success bg-gradient text-light borderbox" id="contato">
+    
+    <div class="d-flex flex-column mb-3 margemexpandida">
+      <div style="text-align:center">
+        <h3>Nosso contato</h3>
+        <div style="text-align:center">
+          <h5>ProjetoAdote ©</h5>
+        </div>
+        <div">
+          <p>&nbsp</p>
+          <span>Nosso telefone:</span>
+          <a  class="text-light" href=“tel:+5511000000000”>(11) 0000-0000</a>
+        </div>
+        <div>
+          <span>Nosso e-mail:</span>
+          <a class="text-light" href=“mailto:projetoadote@contato.org.br”>projetoadote@contato.org.br</a>
+        </div>
+        <div>
+          <p>&nbsp</p>
+          <span>Doe para o Projeto Adote! </span>
+          <span>Pix: +258963147</span>
+        </div>  
+      </div>
+    </div>
+
+    <div class="d-flex flex-column mb-3 margemexpandida">
+      <div style="text-align:center">
+        <h3>Fale conosco</h2>
+      </div>
+      <div>
+        <div style="text-align:center">
+          <h5>ProjetoAdote ©</h5>
+        </div>
+        <div class="mb-3">
+          <form action="projetoadote.com/adote" method="POST">
+            <label for="clientname">Seu nome:</label>
+            <input type="text" class="form-control" id="clientname" name="nome">
+            <label for="clientmail">Seu e-mail:</label>
+            <input type="email" class="form-control" id="clientmail" name="mail">
+            <label for="subject">Deixe sua mensagem e entraremos em contato:</label>
+            <textarea id="subject" class="form-control" name="subject" placeholder="Escreva aqui..." style="height:170px"></textarea>
+            <input type="submit" class="btn btn-primary mb-3" value="Enviar">
+          </form>
+        </div>
+      </div>
+    </div>             
+  </footer>
+    
+    <!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+</body>
+</html>
