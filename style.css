@@ -1,0 +1,13 @@
+.espaco{
+    gap: 10px 20px;
+}
+
+.text{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color:bisque;
+    padding: 10px;
+}
+
+.margem{
+    padding: 10px;
+}
